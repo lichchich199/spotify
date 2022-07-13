@@ -10,6 +10,7 @@ function Playing() {
     const handleClickPre = () => {
         handleSetSong(song.id - 1)
     }
+    //
     return (
         <div>
             <AudioPlayer 
